@@ -227,35 +227,35 @@
   .macman {
     background-image: url(./images/coder-on-a-mac.jpg);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 
   .woman {
     background-image: url(./images/woman-coding.jpg);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 
   .circuit {
     background-image: url(./images/circuit.jpg);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 
   .tabletman {
     background-image: url(./images/man-tablet.jpg);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 
   .macdesk {
     background-image: url(./images/mac-desk.jpg);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 
@@ -295,12 +295,22 @@
     }
   }
   
-  /* TODO: add media query for a max-width of 768px */
+  /* TODO: add media query for a max-width of 768px */ 
   @media screen and (max-width: 768px) {
-    
+    .flex-container {
+        display: block;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .flex-item:first-child {
+        min-height: 150px;
+    }
   }
 
   /* These are personal touches */
   footer {
     text-align: center;
+    background-color: var(--tertiary);
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
