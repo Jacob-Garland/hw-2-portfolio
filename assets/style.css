@@ -221,24 +221,11 @@
   
   /* portfolio project images */
   /* TODO: Add portfolio project images here using background images*/
-  .run-buddy {
-    
-  }
-  
-  .led-wall {
-    
-  }
-  
-  .react-calc {
-    
-  }
-  
-  .pastel-puzzles {
-    
-  }
-  
-  .surf-report {
-    
+
+  .image {
+    width: 300px;
+    height: auto;
+    object-fit: fill;
   }
   
   /* media queries */
