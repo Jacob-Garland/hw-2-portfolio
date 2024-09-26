@@ -282,6 +282,11 @@
     
   }
 
+  /* These are properties I've codeed in for a personalized touch */
   ul {
     list-style: none;
+  }
+
+  footer {
+    text-align: center;
   }
