@@ -2,17 +2,95 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Contact Me</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"/>
+        <link rel="stylesheet" href="/assets/stylesheets/contact.css">
+        <script src="/assets/javascript/contact.js"></script>
     </head>
     <body>
         <header>
-             
+            <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="navbar-menu is-acitve" id="navMenu">
+                    <div class="navbar-end">
+                        <div class="dropdown is-hoverable">
+                            <div class="dropdown-trigger">
+                                <button class="button is-medium has-text-warning" aria-haspopup="true" aria-controls="dropdown-menu">
+                                    <span>Projects</span>
+                                </button>
+                            </div>
+                            <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                                <div class="dropdown-content">
+                                    <a href="./project1.html" class="dropdown-item">Project 1</a>
+                                    <a href="./project2.html" class="dropdown-item">README.md Generator</a>
+                                    <a href="./project3.html" class="dropdown-item">Project 3</a>
+                                    <a href="./project4.html" class="dropdown-item">Project 4</a>
+                                    <a href="./project5.html" class="dropdown-item">Weather App</a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="/pages/about.html" class="button is-link is-medium has-text-warning"><strong>About Me</strong></a>
+                        <a href="/index.html" class="button is-link is-medium has-text-warning"><strong>Home</strong></a>
+                    </div>
+                </div>
+            </nav>
         </header>
+        <br>
         <main>
-            <nav class="navbar" role="navigation" aria-label="main navagation"></nav>
+            <article class="panel is-link">
+                <p class="panel-heading has-text-centered is-size-2 has-text-warning">Email Me!</p>
+                <div class="field">
+                    <label class="label has-text-warning is-size-4">Subject</label>
+                    <div class="control">
+                      <input class="input" type="text" placeholder="Subject of Email">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label has-text-warning is-size-4">Message</label>
+                    <div class="control">
+                      <textarea class="textarea is-link" rows="7" placeholder="Write your email here. When you press send, my site will automatically copy/paste this form and open your default email client."></textarea>
+                    </div>
+                </div>
+                <div class="field is-grouped">
+                    <div class="control">
+                      <button class="button is-success is-dark">Submit Email</button>
+                    </div>
+                    <div class="control">
+                      <button class="button is-danger is-dark">Clear Form</button>
+                    </div>
+                </div>
+                <br>
+            </article>
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title is-size-4 has-text-warning">You can also find me on these sites!</p>
+                </header>
+                <footer class="card-footer">
+                    <a href="https://github.com/Jacob-Garland" class="card-footer-item button is-link is-medium has-text-warning"><strong>GitHub</strong></a>
+                    <a href="https://www.linkedin.com/in/jacob-garland-8428a6326" class="card-footer-item button is-link is-medium has-text-warning"><strong>LinkedIn</strong></a>
+                    <a href="https://www.reddit.com/user/Infinite_Passenger66/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" 
+                    class="card-footer-item button is-link is-medium has-text-warning"><strong>Reddit</strong></a>
+                </footer>
+            </div>
         </main>
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>This page was made with 
+                    <a href="https://bulma.io">
+                        <figure>
+                            <img width="320" height="180" src="/assets/images/bulma-banner.png" alt="bulma logo banner">
+                        </figure>
+                    </a> and JG's (heart emoji here)
+                </p>
+            </div>
+        </footer>
     </body>
 </html>
