@@ -2,7 +2,6 @@
     box-sizing: border-box;
   }
   
-  /* brand color palette */
   :root {
     --primary: rgba(68, 88, 119, 1);
     --secondary: rgba(146, 204, 206, 1);
@@ -174,7 +173,6 @@
     font-size: 0.9rem;
   }
   
-  /* feature first portfolio item */
   .flex-item:first-child {
       min-height: 400px;
       flex-basis: 100%;
@@ -220,9 +218,6 @@
     background-size: 100% 88%;
     color: var(--secondary);
   }
-  
-  /* portfolio project images */
-  /* TODO: Add portfolio project images here using background images*/
 
   .macman {
     background-image: url(./images/coder-on-a-mac.jpg);

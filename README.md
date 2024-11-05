@@ -12,4 +12,4 @@ Jacob Garland
 
 ## License
 
-TBD Later
+No License yet.
