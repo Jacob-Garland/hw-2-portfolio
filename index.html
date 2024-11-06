@@ -1,87 +1,155 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <title>Jacob Garland's Portfolio</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="./assets/style.css" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <h1>Jacob M. Garland</h1>
-            <nav>
-                <a href="#about">About Me</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="/pages/contact.html">Contact</a>
-            </nav>
-        </header>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example that shows off a responsive product landing page.">
+    <title>Jacob M. Garland</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+<body>
 
-        <div class="hero-banner">
-        <h2>Welcome to my Portfolio!</h2>
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+        <p class="pure-menu-heading">Jacob M. Garland's Technical Portfolio</p>
+
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item"><a href="./pages/portfolio.html" class="pure-menu-link">Portfolio</a></li>
+            <li class="pure-menu-item"><a href="./pages/about.html" class="pure-menu-link">About Me</a></li>
+            <li class="pure-menu-item"><a href="./pages/contact.html" class="pure-menu-link">Contact</a></li>
+            <li class="pure-menu-item"><a href="./pages/resume.html" class="pure-menu-link">My Resume</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="splash-container">
+    <div class="splash">
+        <h1 class="splash-head">Welcome to my Portfolio</h1>
+        <p class="splash-subhead">
+            An interactive website to display my technical skills learned as a programmer.
+        </p>
+        <p>
+            <a href="./pages/portfolio.html" class="pure-button pure-button-primary">View My Work</a>
+        </p>
+    </div>
+</div>
+
+<div class="content-wrapper">
+    <div class="content">
+        <h2 class="content-head is-center">Some of the projects I'm currently working on:</h2>
+
+        <div class="pure-g">
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+
+                <h3 class="content-subhead">
+                    <i class="fa fa-rocket"></i>
+                    WickedWx
+                </h3>
+                <p>
+                    Wicked Weather is a realtime weather app with a rock-n-roll theme. Will have alerts for 
+                    severe weather, radar, and forecasts. Future plans to port as mobile app. 
+                </p>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-mobile"></i>
+                    Coming Soon!
+                </h3>
+                <p>
+                    I will soon learn how to code mobile game and utility apps for iOS/Android. 
+                    This will also give me the ability to port some of my projects to mobile in app form.
+                </p>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-th-large"></i>
+                    README.md Generator
+                </h3>
+                <p>
+                    Currently building a CLI program written in Javascript and run by Node.JS that generates a 
+                    project readme with a few prompts. For project efficiency and professionalism.
+                </p>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-check-square-o"></i>
+                    Stay Tuned!
+                </h3>
+                <p>
+                    Python for machine learning and AI, robotics and automation, is my biggest goal to work towards. 
+                    It's the reason I got into coding and programming, but I figured learning and implementing it in 
+                    web development was an easy and important start.
+                </p>
+            </div>
         </div>
+    </div>
 
-        <main class="page-wrapper">
-            <section id="about" class="page-section">
-               <h2>About Me</h2>
-               <div>
-                <p> Hey y'all! My name is Jacob Garland; dad, car enthusiast, and future software development engineer! I'm 28 years old, a Florida native, and I have always 
-                    had a passion for computers. I spent long hours of freetime as a child tinkering and taking apart my game consoles, dvd players, and more. Maturing 
-                    further into high school, I had a tendency to explore more on the software side rather than hardware. Modifying the software on my video game consoles and 
-                    cell phones, as well as my PC. As an adult now, I'm working to take that passion and turn it into a career! I've been learning coding languages to build websites
-                    such as this working, interactive portfolio. With skills built from hands-on learning in HTML, CSS, and Javascript. 
-                </p>
-                <p> I'm also working on building skills in Typescript, Python, Node.JS with npm, and more. So stay tuned for more projects to be added in the future, displaying my skills! 
-                </p>
-                <h3>Educational History</h3>
-                <ul>
-                    <li><strong>High School:</strong> Graduated with a High School Diploma from Citrus High School in Inverness, Fl. 2015</li>
-                    <li><strong>Post-Secondary:</strong> UCF Coding Bootcamp 2025</li>
-                </ul>
-                <p> If you want to chat and get to know me more, have questions or comments, or have business inquiries/job offers, all of my professional contact information can be found in the 'Contact Me'
-                    section further down this page. The fastest way of reaching me would be to email. 
-                </p>
-                </div>
-            </section>
-            <br>
-            <section id="portfolio" class="page-section">
-                <h2>Work</h2>
-                <div class="flex-container">
-                <section class="flex-item macman">
-                    <div>
-                        <h3>Project 1 (Coming Soon!)</h3>
-                    </div>
-                </section>
-                <br>
-                <section class="flex-item woman">
-                    <div>
-                        <h3>Project README.md Generator (Coming Soon!)</h3>
-                    </div>
-                </section>
-                <br>
-                <section class="flex-item circuit">
-                    <div>
-                        <h3>Project 3 (Coming Soon!)</h3>
-                    </div>
-                </section>
-                <br>
-                <section class="flex-item tabletman">
-                    <div>
-                        <h3>Project 4 (Coming Soon!)</h3>
-                    </div>
-                </section>
-                <br>
-                <section class="flex-item macdesk">
-                    <div>
-                        <h3>Weather App (Coming Soon!)</h3>
-                    </div>
-                </section>
-                </div>
-            </section>
-            <br>
-        </main>
+    <div class="ribbon l-box-lrg pure-g">
+        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+            <img width="500" alt="File Icons" class="pure-img-responsive" src="./assets/images/circuit.jpg">
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+            <h2 class="content-head content-head-ribbon">Currently Looking For Work</h2>
+            <p>
+                I'm currently for hire for any company as a programmer and/or software engineer. My current knowledge 
+                range is limited to front end development. However, I am currently enrolled through University of Central 
+                Florida in the Full Stack Coding Bootcamp. I will graduate in March 2025, so keep checking in!
+            </p>
+            <p>
+                For hiring companies, I am seeking remote work. I would accept remote/hybrid work in Chicago, Illinois, 
+                Seattle, Washington, anywhere in Texas or Florida. Contact me via email for interview scheduling and 
+                application (I can include resume page). 
+            </p>
+            <p>
+                For prospective clients, I will be open to freelance work coding smaller websites for businesses (i support 
+                small businesses) and have contract templates already made. I plan to purchase a server rack and host 
+                all my projects in the future. The end result is you as a customer will have more possibilites for 
+                your website.
+            </p>
+        </div>
+    </div>
+    
+    <!--TODO: Attach email client-->
+    <div class="content">
+        <h2 class="content-head is-center">Express Contact</h2>
+        <div class="pure-g">
+            <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+                <form class="pure-form pure-form-stacked">
+                    <fieldset>
+                        <label for="email">Email Subject</label>
+                        <input id="subject" type="text" placeholder="Your Subject">
 
-        <footer>
-            <h2>Thanks for visiting! I hope you've enjoyed. &#128516</h2>
-        </footer>
-    </body>
+                        <label for="message">Your Message</label>
+                        <input id="message" type="text" placeholder="Your Message Here">
+
+                        <button type="submit" class="pure-button">Send(AP e)</button>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+                <h4>Contact Me</h4>
+                <p>
+                    Here you can send me a fast, brief email from the homepage. When you hit send, my website
+                    will package your input, copy the information, and send it to your default email client 
+                    set to your device through your web browser. 
+                </p>
+                <h4>More Contact Information</h4>
+                <p>
+                    For all the platforms you can follow or contact me on, see my <a href="./pages/contact.html">Contact</a> 
+                    page. If you like what you see, please feel free to follow, subscribe, comment and interact with me on 
+                    all platforms to show your support. It means a lot, and really helps provide me with user feedback.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer l-box is-center">
+        Thanks for visiting! &#128516 I hope you enjoy! Made with love (e) by JG and framework provided by the Pure Team. (i)
+    </div>
+
+</div>
+</body>
 </html>

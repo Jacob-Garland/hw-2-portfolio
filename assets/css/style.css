@@ -52,6 +52,7 @@
     line-height: 1;
   }
   
+  /* IMPORTANT: THIS DOES AN EASE UP TRANSITION ON HOVER OF ELEMENT */
   nav {
     display: flex;
     flex-direction: row;
@@ -81,7 +82,10 @@
   nav a:last-child {
     margin-right: 0;
   }
-  
+  /* IMPORTANT: THIS DOES AN EASE UP TRANSITION ON HOVER OF ELEMENT */
+
+
+
   main {
     margin-top: 20px;
     margin-bottom: 45px;
@@ -89,7 +93,7 @@
   
   .hero-banner {
     background: rgb(68, 88, 120);
-    background-image: url("./images/code-blocks.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    background-image: url(/assets/images/code-blocks.jpg), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
@@ -220,35 +224,35 @@
   }
 
   .macman {
-    background-image: url(./images/coder-on-a-mac.jpg);
+    background-image: url(./assets/images/coder-on-a-mac.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .woman {
-    background-image: url(./images/woman-coding.jpg);
+    background-image: url(./assets/images/woman-coding.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .circuit {
-    background-image: url(./images/circuit.jpg);
+    background-image: url(./assets/images/circuit.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .tabletman {
-    background-image: url(./images/man-tablet.jpg);
+    background-image: url(./assets/images/man-tablet.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .macdesk {
-    background-image: url(./images/mac-desk.jpg);
+    background-image: url(./assets/images/mac-desk.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
