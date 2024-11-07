@@ -22,4 +22,3 @@ document.addEventListener('DOMContentLoaded', () => {
   
   });
 
-// TODO: implement email event listener and send client for form

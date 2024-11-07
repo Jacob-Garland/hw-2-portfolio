@@ -1,5 +1,16 @@
+* {
+    --red: rgb(138, 6, 45);
+    --black: #000000;
+    --green: rgb(6, 31, 6);
+    --gray: rgb(43, 46, 46);
+    --white: white;
+    --blue: #1f8dd6;
+    --yellow: rgb(245, 200, 0);
+}
+
 body {
-    color: #777;
+    color: var(--white);
+    background-color: var(--gray);
 }
 
 .pure-img-responsive {
@@ -49,18 +60,19 @@ The content `<div>` is where all your content goes.
 
 .header {
      margin: 0;
-     color: #333;
+     color: var(--black);
+     background-color: var(--red);
      text-align: center;
      padding: 2.5em 2em 0;
-     border-bottom: 1px solid #eee;
+     border-bottom: 3px solid var(--blue);
  }
     .header h1 {
         margin: 0.2em 0;
         font-size: 3em;
-        font-weight: 300;
+        font-weight: bold;
     }
      .header h2 {
-        font-weight: 300;
+        font-weight: bold;
         color: #ccc;
         padding: 0;
         margin-top: 0;
@@ -68,8 +80,8 @@ The content `<div>` is where all your content goes.
 
 .content-subhead {
     margin: 50px 0 20px 0;
-    font-weight: 300;
-    color: #888;
+    font-weight: bold;
+    color: var(--blue);
 }
 
 

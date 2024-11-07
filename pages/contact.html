@@ -46,23 +46,23 @@
         </header>
         <br>
         <main>
-            <article class="panel is-link">
+            <article class="panel is-link" id="email">
                 <p class="panel-heading has-text-centered is-size-2 has-text-warning">Email Me!</p>
                 <div class="field">
                     <label class="label has-text-warning is-size-4">Subject</label>
                     <div class="control">
-                      <input class="input" type="text" placeholder="Subject of Email">
+                      <input class="input" id="subject" type="text" placeholder="Subject of Email">
                     </div>
                 </div>
                 <div class="field">
                     <label class="label has-text-warning is-size-4">Message</label>
                     <div class="control">
-                      <textarea class="textarea is-link" rows="7" placeholder="Write your email here. When you press send, my site will automatically copy/paste this form and open your default email client."></textarea>
+                      <textarea class="textarea is-link" id="message" rows="7" placeholder="Write your email here. When you press send, my site will automatically copy/paste this form and open your default email client."></textarea>
                     </div>
                 </div>
                 <div class="field is-grouped">
                     <div class="control">
-                      <button class="button is-success is-dark">Submit Email</button>
+                      <button class="button is-success is-dark" type="submit">Submit Email</button>
                     </div>
                     <div class="control">
                       <button class="button is-danger is-dark">Clear Form</button>
